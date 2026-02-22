@@ -1,7 +1,6 @@
 {
   "name": "after-dark",
   "version": "1.0.0",
-  "description": "Ultra-real, AI-powered, cinematic cyberpunk club: Next.js, TypeScript, Three.js, PeerJS, Tailwind, and more.",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,8 +14,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "three": "0.156.1",
-    "@react-three/fiber": "8.12.4",
-    "@react-three/drei": "9.86.3",
+    "@react-three/fiber": "8.13.6",
+    "@react-three/drei": "10.7.7",
     "peerjs": "1.5.2"
   },
   "devDependencies": {
