@@ -36,8 +36,8 @@ export default function Home() {
         poster="/club-bg-poster.jpg"
       />
 
-      {/* Club music */}
-      <audio ref={audioRef} src="/dj_smoke_audio.mp3" preload="auto" loop />
+      {/* Club music: Use your provided track */}
+      <audio ref={audioRef} src="/A Musical Journey (Stereo FX Club Mix).mp3" preload="auto" loop />
 
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-black/50 pointer-events-none z-1" />
 
