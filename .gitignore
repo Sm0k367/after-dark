@@ -1,0 +1,24 @@
+# Node modules and system files
+node_modules/
+.next/
+out/
+dist/
+.DS_Store
+*.log
+
+# Local environment files
+.env*
+!.env.example
+
+# VSCode & IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+Thumbs.db
+
+# macOS system files
+.Spotlight-V100
+.Trashes
