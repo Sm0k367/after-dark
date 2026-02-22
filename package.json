@@ -1,6 +1,7 @@
 {
   "name": "after-dark",
   "version": "1.0.0",
+  "description": "Ultra-real, AI-powered, cinematic cyberpunk club: Next.js, TypeScript, Three.js, PeerJS, Tailwind, and more.",
   "private": true,
   "scripts": {
     "dev": "next dev",
