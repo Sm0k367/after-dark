@@ -1,0 +1,41 @@
+{
+  "name": "after-dark",
+  "version": "1.0.0",
+  "description": "Ultra-real, AI-powered, cinematic cyberpunk club: Next.js, TypeScript, Three.js, PeerJS, Tailwind, and more.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "analyze": "next build && npx next-bundle-analyzer"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "three": "^0.156.1",
+    "@react-three/fiber": "^8.12.4",
+    "@react-three/drei": "^9.70.14",
+    "peerjs": "^1.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "latest",
+    "tailwindcss": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "club",
+    "cyberpunk",
+    "ai",
+    "threejs"
+  ],
+  "license": "MIT",
+  "author": "Sm0k367"
+}
