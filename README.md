@@ -1,87 +1,86 @@
-# 🎵 AI Lounge After Dark
+# ⚡️ AI Lounge After Dark
 
-_The future of digital nightlife is here._
-
-A real-time, cinematic, AI-powered cyberpunk club in your browser.  
-Ultra-immersive, infinitely remixable, and lightning-fast—with neon visuals, beat-synced backgrounds, social features, and community vibes.
+_The club is open. Enter the future — neon, cinematic, alive._
 
 **Live:** [https://after-dark.vercel.app/](https://after-dark.vercel.app/)  
-**Demo:** [https://ai-lounge-six.vercel.app/](https://ai-lounge-six.vercel.app/)
+**Source:** [https://github.com/Sm0k367/after-dark](https://github.com/Sm0k367/after-dark)
+
+---
+
+## 🎶 What is it?
+A blazing-fast, immersive, web-based cyberpunk club powered by AI, React, and next-gen visuals.  
+Walk in. The energy pulses. The crowd is alive. The music reacts to you. Bring your squad, become digital, leave real-world rules at the door.
 
 ---
 
 ## ✨ Features
 
-- **Ultra-real Backgrounds:** 8K cinematic video, wet/glitch neon FX, AR/'see the vibe' mode
-- **Beat-Synced Animations:** Audio-reactive neon, pulse lines, and overlays
-- **Remix Promo Generator:** Instantly export club reels for TikTok/socials
-- **User-Generated Reels:** Community can submit AI/AR club dreams—featured live
-- **AI Host/MC:** Digital MC dialog, mood system, expressive avatar
-- **Mobile Perfect:** Responsively designed for every device & screen
-- **Social-First:** Share buttons, Discord, Open Mic, Art/Meme, leaderboard
-- **Super Fast:** No backend needed—Next.js, Three.js, PeerJS, and Web Audio API
-- **100% Free:** Fully browser-based, no wallet or sign up
+- **Ultra-real club visuals:** Neon-drenched, HD video background, cinematic club effects  
+- **Built for every device:** Fluid experience on phone, tablet, or huge desktop  
+- **Instant session:** Just type your name—no signup, no wallet, no delay  
+- **Reactive music:** Kick off a session, the beat drops, backgrounds sync  
+- **Social footer bar:** Club Discord, Open Mic, Art/Meme links (plug in your own)  
+- **Ready for expansion:** Designed for multiplayer, events, AI hosts, custom avatars, remix reels, and AR
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quickstart
 
-> 1. **Clone**  
-> `git clone https://github.com/Sm0k367/after-dark.git && cd after-dark`
-
-> 2. **Install**  
-> `npm install`
-
-> 3. **Run locally**  
-> `npm run dev`
->
-> Visit [http://localhost:3000](http://localhost:3000)
-
-> 4. **Deploy to Vercel**  
-> [Import to Vercel](https://vercel.com/new) using this repo
+1. **Clone the repo**
+    ```sh
+    git clone https://github.com/Sm0k367/after-dark.git && cd after-dark
+    ```
+2. **Install dependencies**
+    ```sh
+    npm install
+    ```
+3. **Dev server (localhost:3000)**
+    ```sh
+    npm run dev
+    ```
+4. **Deploy to Vercel**  
+   [Import to Vercel](https://vercel.com/import) and it just works.
 
 ---
 
-## 📁 Project Structure
+## 📁 Structure
 after-dark/
 ├── src/
-│ ├── components/ # All UI components (HeroGrid, Visualizer, Footer, etc)
 │ ├── pages/
-│ │ └── index.tsx # Main landing page
+│ │ ├── _app.tsx
+│ │ └── index.tsx
 │ ├── styles/
-│ │ └── globals.css # Neon/glitch club styles
+│ │ └── globals.css
 ├── public/
-│ ├── club-bg.mp4 # Club background video
-│ ├── club-bg-poster.jpg # Video poster
-│ ├── dj_smoke_audio.mp3 # Club audio loop
-│ └── avatar-default.png # Default club avatar
+│ ├── club-bg.mp4
+│ ├── club-bg-poster.jpg
+│ ├── A Musical Journey (Stereo FX Club Mix).mp3
+│ └── avatar-default.png
+├── tailwind.config.js
+├── postcss.config.js
+├── tsconfig.json
 ├── package.json
-├── README.md
-└── ...
+├── LICENSE
+└── README.md
 
 
 ---
 
-## 🛠️ Stack
+## 🛠️ Tech
 
-- **Next.js 16+**
-- **React 18+**
-- **TypeScript**
+- **Next.js** + **React** + **TypeScript**
 - **Tailwind CSS**
-- **Three.js / React Three Fiber**
-- **PeerJS** (for P2P features)
-- **Vercel** (deploy on every push)
+- **Three.js** / **React Three Fiber**
+- **PeerJS** (for future multiplayer)
+- **Vercel** — push to deploy
 
 ---
 
-## 👾 License
+## 🔒 License
 
-MIT — [see LICENSE](LICENSE)
-
----
-
-_Questions? DM [@Sm0k367](https://github.com/Sm0k367) or open an issue._
+MIT — [LICENSE](LICENSE)
 
 ---
 
-**Let’s bring digital nightlife to the future!**
+Enjoy your stay.  
+_The dancefloor is where code meets cosmos._
